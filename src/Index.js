@@ -1,6 +1,7 @@
 import FlappyBird from "./FlappyBird.webp";
 import WanderLust from "./Wanderlust.png";
 import WeatherApplication from "./WeatherApplication.png";
+import GoFoodie from "./Go-Foodie.png";
 import Portfolio from "./Portfolio.png";
 
 export const HERO_CONTENT = `Hi there! I'm Manish, an MCA student and passionate developer. I love creating innovative solutions and bringing visions to life. Let's build something amazing together!`;
@@ -9,6 +10,13 @@ export const ABOUT_TEXT = `As a Master's in Computer Applications (MCA) student,
 
 
 export const PROJECTS = [
+  {
+    image: GoFoodie,
+    title: "Go-Foodie",
+    description:
+      "Welcome to Go-Foodie, a full-featured food delivery web application designed to provide users with an intuitive food ordering experience and admins with a streamlined order management system. This project is a collaborative effort by Yamini and Manish Rawat, with both contributing to frontend and backend development.",
+    technologies: ["JavaScript","React", "MongoDB", "Express", "Node.js","Stripe","Tailwind","Axios"],
+  },
   {
     image: WanderLust,
     title: "Wanderlust",
