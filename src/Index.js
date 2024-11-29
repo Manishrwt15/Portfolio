@@ -10,6 +10,13 @@ export const ABOUT_TEXT = `As a Master's in Computer Applications (MCA) student,
 
 export const PROJECTS = [
   {
+    image: Go-Foodie,
+    title: "Go-Foodie",
+    description:
+      "Welcome to Go-Foodie, a full-featured food delivery web application designed to provide users with an intuitive food ordering experience and admins with a streamlined order management system. This project is a collaborative effort by Yamini and Manish Rawat, with both contributing to frontend and backend development.",
+    technologies: ["JavaScript","React", "MongoDB", "Express", "Node.js","Stripe"],
+  },
+  {
     image: WanderLust,
     title: "Wanderlust",
     description:
